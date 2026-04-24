@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Points d'intérêt - la maison 19 - coliving</title>
+    <meta name="description" content="Services et lieux utiles autour de la maison: commerces, santé, parcs, restaurants." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Manrope:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container navbar">
+        <a class="logo" href="index.html">la maison 19 - <span>coliving</span></a>
+        <button class="hamburger" aria-label="Ouvrir le menu" aria-expanded="false" data-nav-toggle>
+          <span></span><span></span><span></span>
+        </button>
+        <nav>
+          <ul class="nav-links" data-nav-links>
+            <li class="nav-item"><a href="index.html">Accueil</a></li>
+            <li class="nav-item"><a href="pieces.html">Les pièces</a></li>
+            <li class="nav-item"><a href="transports.html">Transports</a></li>
+            <li class="nav-item"><a href="interets.html">Intérêts</a></li>
+            <li class="nav-item"><a href="infos.html">Infos</a></li>
+            <li class="nav-item"><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="section reveal">
+        <h1 class="section-title">Points d'intérêt à proximité</h1>
+        <p><!-- DATA: INTRO_INTERETS -->Un environnement pratique avec commerces, services de santé et espaces verts rapidement accessibles.</p>
+      </section>
+
+      <section class="section grid-3 reveal delay-1">
+        <article class="card">
+          <span class="badge">Supermarchés</span>
+          <h2>Courses faciles</h2>
+          <ul class="feature-list">
+            <li><!-- DATA: SUPERMARCHE_1 -->Lidl - 10 min à pied</li>
+            <li><!-- DATA: SUPERMARCHE_2 -->Intermarché - 4 min en voiture</li>
+            <li><!-- DATA: SUPERMARCHE_3 -->Supérette bio Georgette - 4 min en voiture</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <span class="badge">Santé</span>
+          <h2>Soins et pharmacie</h2>
+          <ul class="feature-list">
+            <li><!-- DATA: PHARMA_1 -->Pharmacie - 10 min à pied</li>
+            <li><!-- DATA: PHARMA_2 -->CHU - 15 min en voiture</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <span class="badge">Espaces verts</span>
+          <h2>Nature à proximité</h2>
+          <ul class="feature-list">
+            <li><!-- DATA: MEDECIN_1 -->Plaine de Cointe - 15 min à pied</li>
+            <li><!-- DATA: MEDECIN_2 -->Bois de Seraing - 15 min en voiture</li>
+          </ul>
+        </article>
+      </section>
+
+      <footer class="footer">
+        <p>Temps de trajet donnés à titre informatif et susceptibles de varier selon la circulation.</p>
+      </footer>
+    </main>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

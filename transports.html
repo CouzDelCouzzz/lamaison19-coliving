@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transports - la maison 19 - coliving</title>
+    <meta name="description" content="Accessibilité de la maison: bus, tram, autoroute et points stratégiques." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Manrope:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container navbar">
+        <a class="logo" href="index.html">la maison 19 - <span>coliving</span></a>
+        <button class="hamburger" aria-label="Ouvrir le menu" aria-expanded="false" data-nav-toggle>
+          <span></span><span></span><span></span>
+        </button>
+        <nav>
+          <ul class="nav-links" data-nav-links>
+            <li class="nav-item"><a href="index.html">Accueil</a></li>
+            <li class="nav-item"><a href="pieces.html">Les pièces</a></li>
+            <li class="nav-item"><a href="transports.html">Transports</a></li>
+            <li class="nav-item"><a href="interets.html">Intérêts</a></li>
+            <li class="nav-item"><a href="infos.html">Infos</a></li>
+            <li class="nav-item"><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="section reveal">
+        <h1 class="section-title">Transports et accessibilité</h1>
+        <p><!-- DATA: INTRO_TRANSPORTS -->Localisation idéale pour rejoindre rapidement l'université, le centre-ville et les grands axes routiers.</p>
+      </section>
+
+      <section class="section grid-2 reveal delay-1">
+        <article class="card">
+          <span class="badge">Bus</span>
+          <h2>Lignes principales</h2>
+          <ul class="feature-list">
+            <li><!-- DATA: BUS_1 -->Ligne 8 à 12 min à pied</li>
+            <li><!-- DATA: BUS_2 -->Accès direct vers l'université du Sart Tilmant</li>
+            <li><!-- DATA: BUS_3 -->Trajet estimé à 25 min vers le Sart Tilmant (marche comprise)</li>
+          </ul>
+        </article>
+        <article class="card">
+          <span class="badge">Tram</span>
+          <h2>Connexions utiles</h2>
+          <ul class="feature-list">
+            <li><!-- DATA: TRAM_1 -->Terminal du tram à 12 min à pied</li>
+            <li><!-- DATA: TRAM_2 -->Accès simple au centre-ville</li>
+            <li><!-- DATA: TRAM_3 -->Connexion pratique avec le réseau urbain</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="section grid-3 reveal delay-2">
+        <article class="card">
+          <span class="badge">Autoroute</span>
+          <h3><!-- DATA: AUTOROUTE -->Accès E42 et E25</h3>
+          <p>Accès E42 en 7 min, accès E25 en 6 min.</p>
+        </article>
+        <article class="card">
+          <span class="badge">Gare</span>
+          <h3><!-- DATA: CENTRE_VILLE -->Gare des Guillemins en 7 min en voiture</h3>
+          <p>Compter environ 18 min en transport en commun.</p>
+        </article>
+        <article class="card">
+          <span class="badge">Université</span>
+          <h3><!-- DATA: UNIVERSITE -->Sart Tilmant en 10 min en voiture</h3>
+          <p>En bus, compter environ 25 min (temps de marche compris).</p>
+        </article>
+      </section>
+
+      <section class="section reveal delay-3">
+        <article class="card">
+          <h2 class="section-title">Carte de situation</h2>
+          <iframe
+            title="Carte de localisation"
+            aria-label="Carte de localisation de la maison"
+            src="https://www.google.com/maps?q=rue%20de%20trazegnies%2019%2C%204000%20Li%C3%A8ge&output=embed"
+            width="100%"
+            height="420"
+            style="border: 0; border-radius: 0.9rem"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </article>
+      </section>
+
+      <footer class="footer">
+        <p>Temps de trajet indiqués à titre informatif et susceptibles de varier selon les horaires.</p>
+      </footer>
+    </main>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

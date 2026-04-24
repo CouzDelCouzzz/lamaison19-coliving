@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>la maison 19 - coliving</title>
+    <meta
+      name="description"
+      content="la maison 19 - coliving: 4 chambres, jardin et parking, rue de trazegnies 19, 4000 Liège."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Manrope:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container navbar">
+        <a class="logo" href="index.html">la maison 19 - <span>coliving</span></a>
+        <button class="hamburger" aria-label="Ouvrir le menu" aria-expanded="false" data-nav-toggle>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav>
+          <ul class="nav-links" data-nav-links>
+            <li class="nav-item"><a href="index.html">Accueil</a></li>
+            <li class="nav-item"><a href="pieces.html">Les pièces</a></li>
+            <li class="nav-item"><a href="transports.html">Transports</a></li>
+            <li class="nav-item"><a href="interets.html">Intérêts</a></li>
+            <li class="nav-item"><a href="infos.html">Infos</a></li>
+            <li class="nav-item"><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- TODO réduire l'espace entre le header et le main -->
+    <main class="home-main">
+      <section class="hero">
+        <div class="container hero-shell">
+          <article class="card hero-copy reveal">
+            <h1><!-- DATA: TITRE -->la maison 19 - coliving</h1>
+            <p>
+              <!-- DATA: LOCALISATION -->Idéalement située rue de trazegnies 19, 4000 Liège, cette maison propose 4 chambres,
+               de beaux volumes, un jardin privé et des espaces de vie pensés pour une colocation confortable.
+            </p>
+            <div class="hero-highlights">
+              <h2 class="section-title">Les points forts</h2>
+              <div class="grid-4">
+                <article class="card">
+                    <span class="badge">Chambres</span>
+                    <h3><!-- DATA: CHAMBRES -->4 grandes chambres</h3>
+                    <p>Volumes réguliers et luminosité naturelle idéale pour étudier ou télétravailler.</p>
+                </article>
+                <article class="card">
+                    <span class="badge">Salles d'eau</span>
+                    <h3><!-- DATA: SDB -->2 salles de bain</h3>
+                    <p>Configuration pratique pour la vie quotidienne à plusieurs occupants.</p>
+                </article>
+                <article class="card">
+                    <span class="badge">Extérieur</span>
+                    <h3><!-- DATA: JARDIN -->Jardin + terrasse</h3>
+                    <p>Espace extérieur privé pour repas, détente et moments conviviaux.</p>
+                </article>
+                <article class="card">
+                    <span class="badge">Mobilité</span>
+                    <h3><!-- DATA: PARKING -->Parking 3 véhicules</h3>
+                    <p>Accès aisé pour voitures et proximité immédiate des axes routiers.</p>
+                </article>
+                </div>
+            </div>
+            <div style="height: 2rem;"></div> 
+            <p class="hero-actions">
+              <a class="btn btn-primary" href="contact.html">Prendre contact</a>
+              <a class="btn btn-outline" href="pieces.html">Voir les pièces</a>
+            </p>
+          </article>
+          <figure class="hero-image reveal delay-1">
+            <img src="img/index/IMG_2980.jpeg" alt="Façade de la maison 19 - coliving à Liège" />
+          </figure>
+        </div>
+      </section>
+
+      <section class="section container reveal delay-2">
+        <h2 class="section-title">Mini galerie</h2>
+        <div class="grid-3">
+          <img src="img/index/IMG_2970.jpeg" alt="Aperçu de la maison 1" />
+          <img src="img/index/IMG_2964.jpeg" alt="Aperçu de la maison 2" />
+          <img src="img/index/IMG_2968.jpeg" alt="Aperçu de la maison 3" />
+        </div>
+      </section>
+
+      <section class="section container reveal delay-3">
+        <article class="card" style="text-align: center">
+          <h2 class="section-title" style="justify-content: center">Visite et disponibilité</h2>
+          <p><!-- DATA: CTA -->Une visite peut être organisée 7j/7 selon vos disponibilités.</p>
+          <p style="margin-top: 1rem">
+            <a class="btn btn-primary" href="contact.html">Demander une visite</a>
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

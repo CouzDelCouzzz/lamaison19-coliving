@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Informations pratiques - la maison 19 - coliving</title>
+    <meta name="description" content="Toutes les informations locatives essentielles du bien en un coup d'œil." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Manrope:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container navbar">
+        <a class="logo" href="index.html">la maison 19 - <span>coliving</span></a>
+        <button class="hamburger" aria-label="Ouvrir le menu" aria-expanded="false" data-nav-toggle>
+          <span></span><span></span><span></span>
+        </button>
+        <nav>
+          <ul class="nav-links" data-nav-links>
+            <li class="nav-item"><a href="index.html">Accueil</a></li>
+            <li class="nav-item"><a href="pieces.html">Les pièces</a></li>
+            <li class="nav-item"><a href="transports.html">Transports</a></li>
+            <li class="nav-item"><a href="interets.html">Intérêts</a></li>
+            <li class="nav-item"><a href="infos.html">Infos</a></li>
+            <li class="nav-item"><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="section reveal">
+        <h1 class="section-title">Informations locatives</h1>
+        <p><!-- DATA: INTRO_INFOS -->Informations complètes et transparentes pour faciliter votre recherche de colocation.</p>
+      </section>
+
+      <section class="section grid-2 reveal delay-1">
+        <article class="card">
+          <h2>Conditions financières</h2>
+          <ul class="feature-list">
+            <li><!-- DATA: LOYER -->Loyer: 550 EUR par chambre / mois</li>
+            <li><!-- DATA: CHARGES -->Charges: 70-80 EUR par chambre / mois</li>
+            <li><!-- DATA: DEPOT -->Garantie locative: 2 mois de loyer</li>
+            <li><!-- DATA: GARANT -->Garant: obligatoire</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h2>Contrat et options</h2>
+          <ul class="feature-list">
+            <li><!-- DATA: BAIL -->Bail: 1 an renouvelable</li>
+            <li><!-- DATA: MEUBLE -->Meublé: partiellement meublé</li>
+            <li><!-- DATA: FUMEUR -->Statut: non fumeur</li>
+            <li><!-- DATA: ANIMAUX -->Animaux: non acceptés</li>
+            <li><!-- DATA: DOMICILIATION -->Domiciliation: possible</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="section reveal delay-2">
+        <article class="card">
+          <h2 class="section-title">Résumé rapide</h2>
+          <div class="grid-3">
+            <div>
+              <span class="badge">Budget</span>
+              <p><!-- DATA: RESUME_BUDGET -->Entre 620 et 630 EUR par chambre charges comprises (550€ + 70-80€).</p>
+            </div>
+            <div>
+              <span class="badge">Profil idéal</span>
+              <p><!-- DATA: RESUME_PROFIL -->Colocataires responsables, non-fumeurs, étudiant(e)s ou jeunes actifs.</p>
+            </div>
+            <div>
+              <span class="badge">Dossier</span>
+              <p><!-- DATA: RESUME_DOSSIER -->Garant obligatoire et dossier locatif standard requis avant la signature.</p>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <footer class="footer">
+        <p>Informations indicatives - toujours vérifier les données contractuelles finales.</p>
+      </footer>
+    </main>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

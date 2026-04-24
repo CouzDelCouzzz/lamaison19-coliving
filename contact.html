@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - la maison 19 - coliving</title>
+    <meta name="description" content="Coordonnées de contact fictives pour organiser une visite du bien." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Manrope:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container navbar">
+        <a class="logo" href="index.html">la maison 19 - <span>coliving</span></a>
+        <button class="hamburger" aria-label="Ouvrir le menu" aria-expanded="false" data-nav-toggle>
+          <span></span><span></span><span></span>
+        </button>
+        <nav>
+          <ul class="nav-links" data-nav-links>
+            <li class="nav-item"><a href="index.html">Accueil</a></li>
+            <li class="nav-item"><a href="pieces.html">Les pièces</a></li>
+            <li class="nav-item"><a href="transports.html">Transports</a></li>
+            <li class="nav-item"><a href="interets.html">Intérêts</a></li>
+            <li class="nav-item"><a href="infos.html">Infos</a></li>
+            <li class="nav-item"><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="section reveal">
+        <h1 class="section-title">Contact et disponibilités</h1>
+        <p><!-- DATA: INTRO_CONTACT -->la maison 19 - coliving se situe rue de trazegnies 19, 4000 Liège.</p>
+      </section>
+
+      <section class="section grid-2 reveal delay-1">
+        <article class="card">
+          <span class="badge">Téléphone</span>
+          <h2><!-- DATA: TEL_LABEL -->Appelez-nous</h2>
+          <p><a href="tel:+32498172505"><!-- DATA: TEL -->+32 498 17 25 05</a></p>
+
+          <span class="badge" style="margin-top: 1rem">Adresse</span>
+          <h2><!-- DATA: ADRESSE_LABEL -->Localisation</h2>
+          <p><!-- DATA: ADRESSE -->rue de trazegnies 19, 4000 Liège</p>
+
+          </article>
+
+        <article class="card">
+          <span class="badge">Horaires</span>
+          <h2><!-- DATA: HORAIRES_LABEL -->Disponibilités de contact</h2>
+          <ul class="feature-list">
+            <li><!-- DATA: HORAIRE_SEMAINE -->Lundi - Vendredi: 09h00 - 19h00</li>
+            <li><!-- DATA: HORAIRE_SAMEDI -->Samedi: 10h00 - 16h00</li>
+            <li><!-- DATA: HORAIRE_DIMANCHE -->Dimanche: sur rendez-vous</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="section reveal delay-2">
+        <article class="card">
+          <h2 class="section-title">Résumé du bien</h2>
+          <div class="grid-4">
+            <div>
+              <span class="badge">Capacité</span>
+              <p><!-- DATA: RESUME_PIECES -->4 chambres, 2 salles de bain, 4 toilettes.</p>
+            </div>
+            <div>
+              <span class="badge">Extérieur</span>
+              <p><!-- DATA: RESUME_EXT -->Jardin, terrasse et parking privés.</p>
+            </div>
+            <div>
+              <span class="badge">Accès</span>
+              <p><!-- DATA: RESUME_ACCES -->Transports et autoroutes rapidement accessibles.</p>
+            </div>
+            <div>
+              <span class="badge">Disponibilité</span>
+              <p><!-- DATA: RESUME_DISPO -->Visites possibles tous les jours sur demande.</p>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
