@@ -6,16 +6,16 @@
 }
 
 :root {
-  --color-bg: #f6f2ea;
-  --color-surface: #fffdf9;
-  --color-surface-alt: #efe7d9;
-  --color-text: #1f2a2c;
-  --color-muted: #5a6668;
-  --color-primary: #c46a2f;
-  --color-primary-dark: #9f4f1e;
-  --color-accent: #2f6e6a;
-  --color-border: #e2d7c6;
-  --shadow-soft: 0 14px 34px rgba(25, 34, 36, 0.12);
+  --color-bg: #F1F5F5;
+  --color-surface: #FFFFFF;
+  --color-surface-alt: #E4EDED;
+  --color-text: #1A2C2C;
+  --color-muted: #5A7272;
+  --color-primary: #6D8F8E;
+  --color-primary-dark: #4A6A69;
+  --color-accent: #4A6A69;
+  --color-border: #CBD8D8;
+  --shadow-soft: 0 14px 34px rgba(20, 35, 35, 0.10);
   --radius-sm: 0.5rem;
   --radius-md: 0.9rem;
   --radius-lg: 1.2rem;
@@ -33,8 +33,8 @@ body {
   font-family: var(--font-body);
   color: var(--color-text);
   background:
-    radial-gradient(circle at 18% 12%, rgba(196, 106, 47, 0.14), transparent 45%),
-    radial-gradient(circle at 84% 84%, rgba(47, 110, 106, 0.16), transparent 50%),
+    radial-gradient(circle at 18% 12%, rgba(109, 143, 142, 0.12), transparent 45%),
+    radial-gradient(circle at 84% 84%, rgba(74, 106, 105, 0.10), transparent 50%),
     var(--color-bg);
   line-height: 1.6;
 }
@@ -137,7 +137,7 @@ main {
 }
 
 .btn-outline:hover {
-  background: rgba(47, 110, 106, 0.1);
+  background: rgba(109, 143, 142, 0.12);
 }
 
 /* Navbar */
@@ -146,7 +146,7 @@ main {
   top: 0;
   z-index: 30;
   backdrop-filter: blur(10px);
-  background: rgba(246, 242, 234, 0.86);
+  background: rgba(241, 245, 245, 0.88);
   border-bottom: 1px solid var(--color-border);
 }
 
@@ -159,12 +159,29 @@ main {
 }
 
 .logo {
-  font-family: var(--font-title);
-  font-size: 1.8rem;
-  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
 }
 
-.logo span {
+.logo-img {
+  height: 2.8rem;
+  width: auto;
+  border-radius: var(--radius-sm);
+  display: block;
+  flex-shrink: 0;
+}
+
+.logo-text {
+  font-family: var(--font-title);
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--color-text);
+  line-height: 1.15;
+}
+
+.logo-text em {
+  font-style: normal;
   color: var(--color-primary);
 }
 
@@ -192,7 +209,7 @@ main {
 .nav-item > a:hover,
 .dropdown-trigger:hover,
 .nav-item > a.active {
-  background: rgba(196, 106, 47, 0.12);
+  background: rgba(109, 143, 142, 0.14);
   color: var(--color-text);
 }
 
@@ -225,7 +242,7 @@ main {
 }
 
 .dropdown-menu a:hover {
-  background: rgba(47, 110, 106, 0.12);
+  background: rgba(109, 143, 142, 0.14);
   color: var(--color-text);
 }
 
@@ -263,7 +280,7 @@ main {
 
 .hero-copy {
   padding: 2rem;
-  background: linear-gradient(160deg, rgba(255, 253, 249, 0.93), rgba(239, 231, 217, 0.85));
+  background: linear-gradient(160deg, rgba(255, 255, 255, 0.93), rgba(228, 237, 237, 0.85));
 }
 
 .hero-copy h1 {
@@ -395,7 +412,7 @@ main {
   height: 0.55rem;
   border-radius: 50%;
   border: 0;
-  background: #ccbfa9;
+  background: #A6BFBF;
   cursor: pointer;
 }
 
@@ -423,7 +440,7 @@ main {
   top: 5.15rem;
   z-index: 20;
   margin-bottom: 1rem;
-  background: rgba(246, 242, 234, 0.95);
+  background: rgba(241, 245, 245, 0.95);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
   padding: 0.55rem;

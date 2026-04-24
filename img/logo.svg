@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <rect width="500" height="500" fill="#6D8F8E" rx="18"/>
+
+  <!-- Back house (smaller, behind) -->
+  <polyline
+    points="130,318 130,196 209,120 288,196 288,318 130,318"
+    stroke="white" stroke-width="7" fill="none" stroke-linejoin="miter"
+  />
+
+  <!-- Front house (larger, in front) -->
+  <polyline
+    points="197,318 197,178 287,93 377,178 377,318 197,318"
+    stroke="white" stroke-width="7" fill="none" stroke-linejoin="miter"
+  />
+
+  <!-- Small inner rectangle -->
+  <rect x="237" y="260" width="60" height="58" stroke="white" stroke-width="7" fill="none"/>
+
+  <!-- Number 19 -->
+  <text
+    x="330" y="263"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="88"
+    fill="white"
+    text-anchor="middle"
+    dominant-baseline="text-after-edge">19</text>
+
+  <!-- La Maison -->
+  <text
+    x="255" y="428"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="46"
+    fill="white"
+    text-anchor="middle"
+    letter-spacing="4">La Maison</text>
+</svg>
