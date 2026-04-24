@@ -663,11 +663,15 @@ main {
 
 .lightbox-counter {
   position: absolute;
-  bottom: -2.5rem;
+  bottom: 1rem;
   left: 50%;
   transform: translateX(-50%);
   color: white;
   font-size: 0.9rem;
+  background: rgba(0, 0, 0, 0.45);
+  padding: 0.3rem 0.6rem;
+  border-radius: 999px;
+  white-space: nowrap;
 }
 
 @media (max-width: 768px) {
@@ -686,6 +690,10 @@ main {
   }
 
   .lightbox-counter {
-    bottom: -2rem;
+    bottom: 0.75rem;
+    font-size: 0.82rem;
+    max-width: calc(100% - 1.5rem);
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 }
